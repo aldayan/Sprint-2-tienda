@@ -83,7 +83,7 @@ body {
 .desarrollo .container {
     display: flex;
     flex-direction: column;
-    background: url(../img/celular.jpg);
+    background: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
