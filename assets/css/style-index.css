@@ -1,0 +1,447 @@
+body {
+    font-family: 'fuente';
+    width: auto;
+    color: white;
+    font-size: 25px;
+    background: black;
+}
+
+
+/*---------------------------------------------*/
+
+
+/*Estilo de Fuente*/
+
+
+/*---------------------------------------------*/
+
+@font-face {
+    font-family: 'fuente';
+    src: url(./BillionDreams_PERSONAL.ttf);
+}
+
+
+/*---------------------------------------------*/
+
+
+/*MENU*/
+
+
+/*---------------------------------------------*/
+
+.menu .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    font-size: 30px;
+    color: white;
+    font-size: 40px;
+}
+
+.titulo-menu {
+    text-decoration: none;
+    color: white;
+}
+
+.goma {
+    background: white;
+    border-radius: 50px;
+}
+
+.buscador {
+    width: 30%;
+    height: 3rem;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    background-color: #F5F5F5;
+    padding: 0% 2%;
+    align-items: center;
+}
+
+.enlace-menu {
+    margin: 20px;
+    text-decoration: underline;
+    color: white;
+    font-size: 40px;
+}
+
+ ::placeholder {
+    font-family: 'fuente';
+    font-size: 20px;
+}
+
+
+/*---------------------------------------------*/
+
+
+/*Desarrollo*/
+
+
+/*---------------------------------------------*/
+
+.desarrollo .container {
+    display: flex;
+    flex-direction: column;
+    background: url(../img/celular.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/*---------------------------------------------*/
+
+
+/*Titulos*/
+
+
+/*---------------------------------------------*/
+
+.titulo-deportivas,
+.titulo-harley,
+.titulo-motocross,
+.titulo-veloces,
+.titulo-todas,
+.titulo-contacto,
+.titulo-publicaciones,
+.titulo-agregar {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-family: 'fuente';
+    color: white;
+    margin: 10px;
+}
+
+
+/*---------------------------------------------*/
+
+
+/*Marca*/
+
+
+/*---------------------------------------------*/
+
+.marca {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.ver {
+    text-decoration: underline;
+    color: white;
+}
+
+
+/*---------------------------------------------*/
+
+
+/*Pizarra*/
+
+
+/*---------------------------------------------*/
+
+.pizarra .container {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.imagen-pizarra {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.imagen-pizarra ul {
+    display: flex;
+    width: 400%;
+    animation: slider 30s infinite alternate;
+    padding: auto;
+}
+
+.imagen-pizarra li {
+    width: 100%;
+    height: 500px;
+}
+
+@keyframes slider {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    75% {
+        margin-left: -300%;
+    }
+}
+
+.descripcion-pizarra {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+
+/*---------------------------------------------*/
+
+
+/*Motos Deportivas. Harley. MotoCross. Mas veloces y todo tipo*/
+
+
+/*---------------------------------------------*/
+
+.Deportivas .container,
+.HarleyD .container,
+.MotoCross .container,
+.Veloces .container,
+.Todas .container {
+    display: flex;
+    background: rgba(0, 0, 0, 0.4);
+    padding-top: 30px;
+}
+
+.deportiva,
+.harley,
+.motocross,
+.veloces,
+.todas {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+
+/*---------------------------------------------*/
+
+
+/*CAJA DE MOTOS*/
+
+
+/*---------------------------------------------*/
+
+.caja-motos {
+    margin: 12px;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 0px 0px 10px rgba(202, 195, 195, 0.404);
+}
+
+.caja-contenido {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.caja-contenido h3,
+.costo {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+.costo {
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+hr {
+    width: 100%;
+    background: white;
+    margin: 20px;
+}
+
+.enlace {
+    text-decoration: underline;
+    color: white;
+    transition: 0.5s;
+    font-size: 30px;
+}
+
+.caja-motos:hover .caja-contenido {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+/*---------------------------------------------*/
+
+
+/*Contacto*/
+
+
+/*---------------------------------------------*/
+
+.contactos .container {
+    display: flex;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    padding-top: 30px;
+}
+
+.informacion-contacto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-contacto {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 30px;
+}
+
+.img-contacto {
+    margin: 100px;
+    background: rgba(255, 255, 255, 0.438);
+    border-radius: 70px;
+}
+
+.lista-informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-info {
+    display: flex;
+    margin: 10px;
+}
+
+.preguntas {
+    text-decoration: underline;
+    color: white;
+    font-size: 30px;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin: 30px;
+}
+
+.contacto-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px;
+}
+
+.contacto-input {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.contacto-boton {
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: 'fuente';
+    cursor: pointer;
+    font-size: 20px;
+}
+
+alert {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*---------------------------------------------*/
+
+
+/*footer*/
+
+
+/*---------------------------------------------*/
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: black;
+}
+
+footer p:hover {
+    font-size: 20px;
+    transition: 1s;
+}
+
+a img {
+    margin: 20px 0px;
+    background: white;
+    border-radius: 100px;
+}
+
+a img:hover {
+    box-shadow: 0px 0px 15px 15px rgba(153, 149, 149, 0.568);
+}
+
+
+/*------------------------------------------*/
+
+
+/*responsive*/
+
+
+/*------------------------------------------*/
+
+@media (max-width: 768px) {
+    .deportiva,
+    .harley,
+    .motocross,
+    .veloces,
+    .todas {
+        display: flex;
+        justify-content: center;
+    }
+    .enlace-menu {
+        margin: 10px;
+    }
+    .informacion-contacto {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .img-contacto {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
+    .lista-contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

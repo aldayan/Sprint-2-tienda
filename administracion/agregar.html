@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Agregar Productos-Biker Racer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../assets/css/reset.css" rel="stylesheet">
+    <link href="../assets/css/style-agregar.css" rel="stylesheet">
+    <link href="../assets/css/style-index.css" rel="stylesheet">
+    <link rel="icon" href="../assets/img/rueda.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="menu">
+        <div class="container">
+
+            <h1 class="titulo-menu"> <img src="../assets/img/rueda.png" class="goma"><a href="../index.html" class="titulo-menu"> Biker Racer </a></h1>
+
+            <input type="search" class="buscador" placeholder="¿Qué deseas buscar?">
+            <nav class="lista-menu">
+                <a class="enlace-menu" href="administracion.html">Volver</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="desarrollo">
+        <div class="container">
+
+            <section class="agregar">
+                <div class="container">
+                    <div class="agregados">
+                        <h3 class="titulo-agregar">Agregar Producto</h3>
+                        <form action="" class="agregar-form">
+                            <input class="agregar-input" type="url" name="url" id="url" placeholder="Url De La Imagen" required>
+                            <select class="agregar-input select" name="categoria" id="categoria" required>
+                            <option class="opciones">Selecciona</option>
+                            <option class="opciones" value="1">Deportivas</option>
+                            <option class="opciones" value="2">Harley Davison</option>
+                            <option class="opciones" value="3">MotoCross</option>
+                            <option class="opciones" value="4">Mas Veloces</option>
+                            </select>
+                            <input class="agregar-input" type="text" name="nombre" id="nombre" placeholder="Nombre Del Producto" required>
+                            <input class="agregar-input" type="number" name="precio" id="precio" placeholder="Costo Del Producto" required>
+                            <textarea class="agregar-input" rows="5" type="text " cols="40 " id="descripcion " name="descripcion" placeholder="Descripcion Del producto" required></textarea>
+                            <button type="submit " id="agregar" class="agregar-boton">Agregar Producto</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contactos " id="contactos ">
+                <div class="container ">
+                    <h2 class="titulo-contacto ">Conocenos y Contactanos</h2>
+
+                    <div class="informacion-contacto ">
+                        <nav class="lista-contacto ">
+                            <img src="../assets/img/contacto.png " class="img-contacto " alt="rueda ">
+
+                            <ul class="lista-informacion ">
+                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html"> Quienes Somos</a></li>
+                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html"> Políticas de privacidad</a></li>
+                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html">Programa de fidelidad</a></li>
+                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html">Nuestras Tiendas</a></li>
+                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html">Quiero ser Franquiciado</a></li>
+                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html">Anuncie Aquí</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="contacto ">
+                            <div class="titulos-contacto ">
+                                <h3 class=" contacto-subtexto ">Hablanos</h3>
+                            </div>
+                            <form action="https://formsubmit.co/aldayanaavila02@gmail.com " method="POST " class="contacto-form " id="form " name="form ">
+                                <input class="contacto-input " type="text " name="nombre " id="nombre " placeholder="Nombre " required>
+                                <textarea class="contacto-input " rows="5 " type="text " cols="40 " id="mensaje " name="mensaje " placeholder="Mensaje " required></textarea>
+
+                                <button type="submit" id="enviar" class="contacto-boton ">Enviar mensaje</button>
+                                <br>
+                                <p class="alerta " id="alerta "></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Hecho por
+            <a href="https://docs.google.com/document/d/17czR9Tc1FW8u58CQo-9ZhV3rmkc7K-wlVFLgSIB82ho/edit?usp=sharing ">Aldayan A. Avila Dotel </a>
+        </p>
+        <a href="https://www.linkedin.com/in/aldayan-avila-b972a2239/ "><img src="../assets/img/linkedin.png " alt="logo de linkedin "></a>
+        <a href="https://github.com/aldayan "><img src="../assets/img/github.png " alt="logo de github "></a>
+
+    </footer>
+
+</body>
+
+</html>

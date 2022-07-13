@@ -1,0 +1,98 @@
+body {
+    font-family: 'fuente';
+    width: auto;
+    color: white;
+    font-size: 25px;
+    background: black;
+}
+
+
+/*---------------------------------------------*/
+
+
+/*Estilo de Fuente*/
+
+
+/*---------------------------------------------*/
+
+@font-face {
+    font-family: 'fuente';
+    src: url(./BillionDreams_PERSONAL.ttf);
+}
+
+
+/*---------------------------------------------*/
+
+
+/*Agregar*/
+
+
+/*---------------------------------------------*/
+
+.agregar .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.agregados {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-top: 40px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.agregar-form {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    width: 40%;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.agregar-input {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+.select {
+    font-family: 'fuente';
+    font-size: 20px;
+}
+
+.opciones {
+    font-family: 'fuente';
+}
+
+.agregar-boton {
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: 'fuente';
+    cursor: pointer;
+    font-size: 25px;
+    margin: 20px;
+}
+
+
+/*------------------------------------------*/
+
+
+/*responsive*/
+
+
+/*------------------------------------------*/
+
+@media (max-width: 768px) {
+    .agregar-form {
+        width: 100%;
+    }
+}

@@ -1,0 +1,97 @@
+body {
+    font-family: 'fuente';
+    width: auto;
+    color: white;
+    font-size: 25px;
+    background: black;
+}
+
+
+/*---------------------------------------------*/
+
+
+/*Estilo de Fuente*/
+
+
+/*---------------------------------------------*/
+
+@font-face {
+    font-family: 'fuente';
+    src: url(./BillionDreams_PERSONAL.ttf);
+}
+
+
+/*---------------------------------------------*/
+
+
+/*login*/
+
+
+/*---------------------------------------------*/
+
+.login .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iniciar-login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-top: 40px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.login-titulo {
+    font-size: 50px;
+    color: white;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    width: 30%;
+    justify-content: center;
+}
+
+.login-input {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.login-boton {
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: 'fuente';
+    cursor: pointer;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.btnn {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*------------------------------------------*/
+
+
+/*responsive*/
+
+
+/*------------------------------------------*/
+
+@media (max-width: 768px) {
+    .login-form {
+        width: 100%;
+    }
+}

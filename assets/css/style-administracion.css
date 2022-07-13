@@ -1,0 +1,64 @@
+body {
+    font-family: 'fuente';
+    width: auto;
+    color: white;
+    font-size: 25px;
+    background: black;
+}
+
+
+/*---------------------------------------------*/
+
+
+/*Estilo de Fuente*/
+
+
+/*---------------------------------------------*/
+
+@font-face {
+    font-family: 'fuente';
+    src: url(./BillionDreams_PERSONAL.ttf);
+}
+
+
+/*---------------------------------------------*/
+
+
+/*publicaciones*/
+
+
+/*---------------------------------------------*/
+
+.publicaciones .container {
+    display: flex;
+}
+
+.productos {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.titulo-publicaciones {
+    padding-top: 40px;
+}
+
+.productos-publicados {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+
+/*---------------------------------------------*/
+
+
+/*responsive*/
+
+
+/*---------------------------------------------*/
+
+@media (max-width: 768px) {
+    .productos-publicados {
+        display: flex;
+        justify-content: center;
+    }
+}
