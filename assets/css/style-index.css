@@ -452,6 +452,10 @@ a img:hover {
     .enlace-menu {
         margin: 20px;
     }
+     
+    .ver {
+    color: black;
+}
     .informacion-contacto {
         justify-content: center;
         flex-direction: column;
