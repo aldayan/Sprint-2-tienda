@@ -83,7 +83,7 @@ body {
 .desarrollo .container {
     display: flex;
     flex-direction: column;
-    background: url(../img/celular.jpg);
+    background: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -419,6 +419,28 @@ a img:hover {
 /*------------------------------------------*/
 
 @media (max-width: 768px) {
+   
+    body {
+    color: black;
+}
+
+    .desarrollo .container {
+    background: white;
+    
+}
+    
+.titulo-deportivas,
+.titulo-harley,
+.titulo-motocross,
+.titulo-veloces,
+.titulo-todas,
+.titulo-contacto,
+.titulo-publicaciones,
+.titulo-agregar {
+    color: black;
+   
+}
+
     .deportiva,
     .harley,
     .motocross,
@@ -428,8 +450,12 @@ a img:hover {
         justify-content: center;
     }
     .enlace-menu {
-        margin: 10px;
+        margin: 20px;
     }
+     
+    .ver {
+    color: black;
+}
     .informacion-contacto {
         justify-content: center;
         flex-direction: column;
@@ -444,4 +470,13 @@ a img:hover {
         flex-direction: column;
         justify-content: center;
     }
+    
+    .contacto-subtexto, .preguntas{
+    color: black;
+   }
+    
+   .descripcion-pizarra, footer p{
+           color: white;
+}
+    
 }

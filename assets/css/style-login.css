@@ -94,4 +94,13 @@ body {
     .login-form {
         width: 100%;
     }
+    
+    .iniciar-login {
+    background: white;
+}
+    
+    .login-titulo {
+    color: black;
+}
+
 }
