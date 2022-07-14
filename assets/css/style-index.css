@@ -419,6 +419,11 @@ a img:hover {
 /*------------------------------------------*/
 
 @media (max-width: 768px) {
+    
+    .desarrollo .container {
+    background:linear-gradient(white,black);
+    
+}
     .deportiva,
     .harley,
     .motocross,
