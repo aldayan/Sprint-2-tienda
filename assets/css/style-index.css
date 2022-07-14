@@ -419,7 +419,11 @@ a img:hover {
 /*------------------------------------------*/
 
 @media (max-width: 768px) {
-    
+   
+    body {
+    color: black;
+}
+
     .desarrollo .container {
     background: white;
     
