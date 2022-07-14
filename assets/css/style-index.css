@@ -424,6 +424,19 @@ a img:hover {
     background: white;
     
 }
+    
+.titulo-deportivas,
+.titulo-harley,
+.titulo-motocross,
+.titulo-veloces,
+.titulo-todas,
+.titulo-contacto,
+.titulo-publicaciones,
+.titulo-agregar {
+    color: black;
+   
+}
+
     .deportiva,
     .harley,
     .motocross,
@@ -449,4 +462,9 @@ a img:hover {
         flex-direction: column;
         justify-content: center;
     }
+    
+    .preguntas {
+    color: black;
+   
+}
 }
