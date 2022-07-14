@@ -471,11 +471,11 @@ a img:hover {
         justify-content: center;
     }
     
-    .preguntas{
+    .contacto-subtexto, .preguntas{
     color: black;
    }
     
-   .contacto-subtexto, .descripcion-pizarra, footer p{
+   .descripcion-pizarra, footer p{
            color: white;
 }
     
