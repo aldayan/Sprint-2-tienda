@@ -471,7 +471,9 @@ a img:hover {
         justify-content: center;
     }
     
-    .preguntas {
+    .preguntas, .contacto-subtexto, .descripcion-pizarra{
     color: black;
    }
+    
+    
 }
