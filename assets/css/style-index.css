@@ -471,12 +471,12 @@ a img:hover {
         justify-content: center;
     }
     
-    .preguntas, .contacto-subtexto, .descripcion-pizarra{
+    .preguntas{
     color: black;
    }
     
-    footer p{
-           color: black;
+   .contacto-subtexto, .descripcion-pizarra, footer p{
+           color: white;
 }
     
 }
