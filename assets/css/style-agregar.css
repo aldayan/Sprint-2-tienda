@@ -92,7 +92,11 @@ body {
 /*------------------------------------------*/
 
 @media (max-width: 768px) {
+    .agregados {
+    background: white;
+}
     .agregar-form {
         width: 100%;
     }
+    
 }
