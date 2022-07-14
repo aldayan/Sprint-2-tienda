@@ -98,4 +98,9 @@ body {
     .iniciar-login {
     background: white;
 }
+    
+    .login-titulo {
+    color: black;
+}
+
 }
