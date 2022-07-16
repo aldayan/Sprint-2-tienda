@@ -413,34 +413,28 @@ a img:hover {
 /*------------------------------------------*/
 
 
-/*responsive*/
+/*responsive 768*/
 
 
 /*------------------------------------------*/
 
 @media (max-width: 768px) {
-   
     body {
-    color: black;
-}
-
+        color: black;
+    }
     .desarrollo .container {
-    background: white;
-    
-}
-    
-.titulo-deportivas,
-.titulo-harley,
-.titulo-motocross,
-.titulo-veloces,
-.titulo-todas,
-.titulo-contacto,
-.titulo-publicaciones,
-.titulo-agregar {
-    color: black;
-   
-}
-
+        background: white;
+    }
+    .titulo-deportivas,
+    .titulo-harley,
+    .titulo-motocross,
+    .titulo-veloces,
+    .titulo-todas,
+    .titulo-contacto,
+    .titulo-publicaciones,
+    .titulo-agregar {
+        color: black;
+    }
     .deportiva,
     .harley,
     .motocross,
@@ -452,10 +446,21 @@ a img:hover {
     .enlace-menu {
         margin: 20px;
     }
-     
     .ver {
-    color: black;
-}
+        color: black;
+    }
+    .caja-motos {
+        margin-bottom: 250px;
+    }
+    .caja-contenido {
+        margin-top: 215px;
+        background: rgba(0, 0, 0, 0.959);
+        border-radius: 0px;
+    }
+    .caja-motos .caja-contenido {
+        opacity: 1;
+        cursor: pointer;
+    }
     .informacion-contacto {
         justify-content: center;
         flex-direction: column;
@@ -470,13 +475,41 @@ a img:hover {
         flex-direction: column;
         justify-content: center;
     }
-    
-    .contacto-subtexto, .preguntas{
-    color: black;
-   }
-    
-   .descripcion-pizarra, footer p{
-           color: white;
+    .contacto-subtexto,
+    .preguntas {
+        color: black;
+    }
+    .descripcion-pizarra,
+    footer p {
+        color: white;
+    }
 }
-    
+
+
+/*------------------------------------------*/
+
+
+/*responsive 1200*/
+
+
+/*------------------------------------------*/
+
+@media (max-width: 1200px) {
+    .informacion-contacto {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .img-contacto {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
+    .lista-contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contacto-form {
+        width: 60%;
+    }
 }
