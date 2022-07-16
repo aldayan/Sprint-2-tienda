@@ -413,7 +413,7 @@ a img:hover {
 /*------------------------------------------*/
 
 
-/*responsive*/
+/*responsive 768*/
 
 
 /*------------------------------------------*/
@@ -482,5 +482,34 @@ a img:hover {
     .descripcion-pizarra,
     footer p {
         color: white;
+    }
+}
+
+
+/*------------------------------------------*/
+
+
+/*responsive 1200*/
+
+
+/*------------------------------------------*/
+
+@media (max-width: 1200px) {
+    .informacion-contacto {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .img-contacto {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
+    .lista-contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contacto-form {
+        width: 60%;
     }
 }
