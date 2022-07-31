@@ -33,12 +33,11 @@
                         <div class="titulo-login">
                             <h3 class="login-titulo">Iniciar Sesion</h3>
                         </div>
-                        <form method="POST" class="login-form" id="form" name="form ">
-                            <input class="login-input" type="email" name="nombre" id="nombre " placeholder="Escriba Su Correo Electronico" required>
-                            <input class="login-input" type="password" name="contraseña " id="contraseña " placeholder="Escriba Su Contraseña" required>
-                            <button type="submit" id="iniciar" class="login-boton"><a href="../administracion/administracion.html" class="btnn">Iniciar sesion</a></button>
-                            <br>
-                            <p class="alerta " id="alerta "></p>
+                        <form class="login-form" id="form" name="form" data-form>
+                            <input class="login-input" type="email" name="email" id="email" placeholder="Escriba Su Correo Electronico" required data-email>
+                            <input class="login-input" type="password" name="contraseña" id="contraseña" placeholder="Escriba Su Contraseña" required data-contraseña>
+                            <button type="submit" id="iniciar" class="login-boton">Iniciar sesion</button>
+
                         </form>
                     </div>
                 </div>
@@ -88,9 +87,10 @@
         </p>
         <a href="https://www.linkedin.com/in/aldayan-avila-b972a2239/ "><img src="../assets/img/linkedin.png " alt="logo de linkedin "></a>
         <a href="https://github.com/aldayan"><img src="../assets/img/github.png " alt="logo de github "></a>
-
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../assets/js/login.js"></script>
 </body>
 
 </html>

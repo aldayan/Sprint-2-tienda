@@ -47,6 +47,21 @@ body {
     flex-wrap: wrap;
 }
 
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.editar {
+    text-decoration: none;
+    color: white;
+}
+
+.fas {
+    padding: 20px;
+}
+
 
 /*---------------------------------------------*/
 
@@ -61,9 +76,7 @@ body {
         display: flex;
         justify-content: center;
     }
-    
     .productos {
-    background: white;
-}
-    
+        background: white;
+    }
 }
