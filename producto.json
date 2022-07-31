@@ -1,0 +1,10 @@
+{
+    "producto": [{
+        "url": "maria.avila@gmail.com",
+        "categoria": "deportiva",
+        "nombre": "moto",
+        "costo": "12",
+        "descripcion": "ahahah3",
+        "id": "1"
+    }]
+}

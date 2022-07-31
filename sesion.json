@@ -1,0 +1,24 @@
+{
+  "sesion": [
+    {
+      "email": "maria.avila@gmail.com ",
+      "contraseña": "123",
+      "id": "1"
+    },
+    {
+      "email": "aldayan.avila@gmail.com",
+      "contraseña": "1233",
+      "id": "3fadbe7c-34d5-4dff-9477-12596118eaee"
+    },
+    {
+      "email": "hola@gmail.com",
+      "contraseña": "12323",
+      "id": "634bd9c2-bd6f-4752-bc92-52be47469983"
+    },
+    {
+      "email": "aldayanaavila02@gmail.com",
+      "contraseña": "123",
+      "id": "7a1a100e-3103-4c16-bc59-389ab2de8843"
+    }
+  ]
+}
