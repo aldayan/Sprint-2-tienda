@@ -1,0 +1,48 @@
+/*----------------------------
+
+pizarra
+
+----------------------------*/
+
+.Descripcion .container {
+    display: flex;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+}
+
+.descripcion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.form-descripcion {
+    display: flex;
+    margin: 40px;
+    width: 40%;
+    justify-content: space-between;
+    font-size: 50px;
+    align-items: center;
+}
+
+.input-descripcion {
+    margin: 10px;
+    height: 200px;
+    text-align: center;
+    color: black;
+}
+
+.boton-descripcion {
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: 'fuente';
+    cursor: pointer;
+    font-size: 25px;
+    margin: 20px;
+}

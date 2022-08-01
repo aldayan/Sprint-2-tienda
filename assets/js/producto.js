@@ -1,7 +1,7 @@
 import { service } from "./service.js";
 
 
-//creando tema
+//creando tarjeta para administracion 
 const crearNuevaTarjeta = (url, nombreProducto, costo, id) => {
 
 
@@ -38,8 +38,6 @@ const crearNuevaTarjeta = (url, nombreProducto, costo, id) => {
     });
     return linea;
 };
-
-
 
 
 //agreganado producto a la tarjeta
