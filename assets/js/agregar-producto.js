@@ -1,8 +1,8 @@
 import { service } from "./service.js";
 
-const formulario = document.querySelector('[data-form]');
+const formulario = document.querySelector('[data-form-agregar]');
 
-//registrando cliente
+//agregando producto
 formulario.addEventListener('submit', (evento) => {
 
     evento.preventDefault();
@@ -12,8 +12,6 @@ formulario.addEventListener('submit', (evento) => {
     const nombreProducto = document.querySelector('[data-nombre]').value;
     const costo = document.querySelector('[data-costo]').value;
     const descripcion = document.querySelector('[data-descripcion]').value;
-
-    console.log(url, "-", categoria, "-", nombreProducto, "-", costo, "-", descripcion);
 
 
     service.crearProducto(url, categoria, nombreProducto, costo, descripcion).then(() => {
