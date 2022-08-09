@@ -1,8 +1,8 @@
 import { service } from "./service.js";
 
 
-//creando tema
-const crearNuevaTarjeta = (url, nombreProducto, costo) => {
+//creando tarjeta para administracion 
+const crearNuevaTarjeta = (url, nombreProducto, costo, id) => {
 
 
     const linea = document.createElement('div');
@@ -15,8 +15,8 @@ const crearNuevaTarjeta = (url, nombreProducto, costo) => {
         <p class="costo">$${costo}</p>
         <hr>
         <div class="icons">
-            <a href="editar.html" class="editar"><i class="fas fa-pen"></i></a>
-            <i class="fas fa-trash-alt trashIcon icon"></i>
+            <a href="editar.html?id=${id}" class="editar"><i class="fas fa-pen"></i></a>
+            <i class="fas fa-trash-alt trashIcon icon" id="${id}" data-btn></i>
         </div>
     </div>
 </div>
@@ -24,10 +24,20 @@ const crearNuevaTarjeta = (url, nombreProducto, costo) => {
 
     linea.innerHTML = contenido;
 
+    const btn = linea.querySelector('[data-btn]');
+    btn.addEventListener('click', () => {
+
+        const id = btn.id;
+
+        service.eliminarProducto(id).then((respuesta) => {
+
+            console.log(respuesta);
+
+        }).catch((error) => alert('ocurrio un error'));
+
+    });
     return linea;
 };
-
-
 
 
 //agreganado producto a la tarjeta
@@ -36,9 +46,9 @@ const contenedor = document.querySelector('[data-contenedor]');
 
 service.listaProducto().then((data) => {
 
-    data.forEach(({ url, nombreProducto, costo }) => {
+    data.forEach(({ url, nombreProducto, costo, id }) => {
 
-        const nuevaTarjeta = crearNuevaTarjeta(url, nombreProducto, costo);
+        const nuevaTarjeta = crearNuevaTarjeta(url, nombreProducto, costo, id);
 
         contenedor.appendChild(nuevaTarjeta);
     });

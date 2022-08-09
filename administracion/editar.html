@@ -31,18 +31,18 @@
                 <div class="container">
                     <div class="agregados">
                         <h3 class="titulo-agregar">Editando Producto</h3>
-                        <form action="" class="agregar-form">
-                            <input class="agregar-input" type="url" name="url" id="url" placeholder="Url De La Imagen" required>
-                            <select class="agregar-input select" name="categoria" id="categoria" required>
+                        <form class="agregar-form" data-form-editar>
+                            <input class="agregar-input" type="url" name="url" id="url" placeholder="Url De La Imagen" required data-url>
+                            <select class="agregar-input select" name="categoria" id="categoria" required data-categoria>
                             <option class="opciones">Selecciona</option>
                             <option class="opciones" value="1">Deportivas</option>
                             <option class="opciones" value="2">Harley Davison</option>
                             <option class="opciones" value="3">MotoCross</option>
                             <option class="opciones" value="4">Mas Veloces</option>
                             </select>
-                            <input class="agregar-input" type="text" name="nombre" id="nombre" placeholder="Nombre Del Producto" required>
-                            <input class="agregar-input" type="number" name="precio" id="precio" placeholder="Costo Del Producto" required>
-                            <textarea class="agregar-input" rows="5" type="text " cols="40 " id="descripcion " name="descripcion" placeholder="Descripcion Del producto" required></textarea>
+                            <input class="agregar-input" type="text" name="nombre" id="nombre" placeholder="Nombre Del Producto" required data-nombre>
+                            <input class="agregar-input" type="number" name="precio" id="precio" placeholder="Costo Del Producto" required data-costo>
+                            <textarea class="agregar-input" rows="5" type="text " cols="40 " id="descripcion " name="descripcion" placeholder="Descripcion Del producto" required data-descripcion></textarea>
                             <button type="submit " id="agregar" class="agregar-boton">Editar Producto</button>
                         </form>
                     </div>
@@ -93,9 +93,10 @@
         </p>
         <a href="https://www.linkedin.com/in/aldayan-avila-b972a2239/ "><img src="../assets/img/linkedin.png " alt="logo de linkedin "></a>
         <a href="https://github.com/aldayan "><img src="../assets/img/github.png " alt="logo de github "></a>
-
     </footer>
 
+
+    <script type="module" src="../assets/js/editar-producto.js"></script>
 </body>
 
 </html>

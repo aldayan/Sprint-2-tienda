@@ -10,8 +10,6 @@ formulario.addEventListener('submit', (evento) => {
     const email = document.querySelector('[data-email]').value;
     const contraseña = document.querySelector('[data-contraseña]').value;
 
-    console.log(email, "-", contraseña);
-
 
     service.crearSesion(email, contraseña).then(() => {
         window.location.href = '/administracion/administracion.html'

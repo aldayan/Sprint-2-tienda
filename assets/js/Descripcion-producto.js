@@ -36,22 +36,3 @@ const obtenerInformacion = () => {
 };
 
 obtenerInformacion();
-
-
-formulario.addEventListener('submit', (evento) => {
-    evento.preventDefault();
-
-    const ur = new URL(window.location);
-    const id = ur.searchParams.get("id");
-
-    const url = document.querySelector('[data-url]').value;
-    const categoria = document.querySelector('[data-categoria]').value;
-    const nombreProducto = document.querySelector('[data-nombre]').value;
-    const costo = document.querySelector('[data-costo]').value;
-    const descripcion = document.querySelector('[data-descripcion]').value;
-
-
-    service.actualizarProducto(url, categoria, nombreProducto, costo, descripcion, id).then(() => {
-        window.location.href = '/administracion/administracion.html';
-    })
-});

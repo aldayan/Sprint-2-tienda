@@ -41,11 +41,59 @@ const crearProducto = (url, categoria, nombreProducto, costo, descripcion) => {
 };
 
 
+// eliminando producto
+
+const eliminarProducto = (id) => {
+
+    return fetch(`http://localhost:3000/sesionYproductos/${id}`, {
+
+        method: 'DELETE'
+    });
+};
+
+
+
+//detalle del producto
+
+const detalleProducto = (id) => {
+    return fetch(`http://localhost:3000/sesionYproductos/${id}`).then((respuesta) => respuesta.json()
+
+    );
+};
+
+
+
+//actualizar producto
+
+const actualizarProducto = (url, categoria, nombreProducto, costo, descripcion, id) => {
+    return fetch(`http://localhost:3000/sesionYproductos/${id}`, {
+        method: 'PUT',
+
+        headers: {
+            "Content-Type": "application/json",
+        },
+
+        body: JSON.stringify({
+            url,
+            categoria,
+            nombreProducto,
+            costo,
+            descripcion
+        }),
+
+    }).then((respuesta) => respuesta).catch(err => console.log(err));
+
+};
+
+
 
 export const service = {
     listaProducto,
     crearSesion,
-    crearProducto
+    crearProducto,
+    eliminarProducto,
+    detalleProducto,
+    actualizarProducto
 
 
 };
