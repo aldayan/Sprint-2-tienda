@@ -2,7 +2,24 @@ import { service } from "./service.js";
 
 
 //editando producto
-const formulario = document.querySelector('[data-form-editar]');
+const formulario = document.querySelector('[data-form-descripcion]');
+
+
+
+const crearNueva = (url) => {
+
+
+    const tarjeta = document.createElement('div');
+
+
+    const conten = `
+    <div class="caja-motos" style="background-image:url(${url}); background-position: center; ">`
+
+    tarjeta.innerHTML = conten;
+
+    return tarjeta;
+};
+
 
 const obtenerInformacion = () => {
 
@@ -14,19 +31,15 @@ const obtenerInformacion = () => {
         window.location.href = "/index.html";
     }
 
-    const url = document.querySelector('[data-url]');
-    const categoria = document.querySelector('[data-categoria]');
+
     const nombreProducto = document.querySelector('[data-nombre]');
-    const costo = document.querySelector('[data-costo]');
     const descripcion = document.querySelector('[data-descripcion]');
 
 
     service.detalleProducto(id).then((perfil) => {
 
-        url.value = perfil.url;
-        categoria.value = perfil.categoria;
+
         nombreProducto.value = perfil.nombreProducto;
-        costo.value = perfil.costo;
         descripcion.value = perfil.descripcion;
 
 
@@ -36,3 +49,19 @@ const obtenerInformacion = () => {
 };
 
 obtenerInformacion();
+
+
+formulario.addEventListener('submit', (evento) => {
+    evento.preventDefault();
+
+    const ur = new URL(window.location);
+    const id = ur.searchParams.get("id");
+
+    const nombreProducto = document.querySelector('[data-nombre]').value;
+    const descripcion = document.querySelector('[data-descripcion]').value;
+
+
+    service.actualizarProducto(url, nombreProducto, descripcion, id).then(() => {
+        window.location.href = '/administracion/administracion.html';
+    })
+});
