@@ -8,7 +8,7 @@ const crearNueva = (url, nombreProducto, costo, id) => {
 
 
     const conten = `
-    <div class="caja-motos" style="background-image:url(${url}); background-position: center; ">
+    <div class="caja-motos" style="background-image:url(${url}); background-position: center;">
     <div class="caja-contenido">
         <h3>${nombreProducto}</h3>
         <p class="costo">$${costo}</p>

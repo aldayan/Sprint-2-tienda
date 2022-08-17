@@ -9,9 +9,7 @@ const listaProducto = () => {
 const crearSesion = (email, contraseña) => {
     return fetch('http://localhost:3000/sesionYproductos', {
         method: 'POST',
-        headers: {
-            "Content-Type": "application/json",
-        },
+
         body: JSON.stringify({
             email,
             contraseña,
