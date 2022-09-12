@@ -106,7 +106,8 @@ body {
 .titulo-todas,
 .titulo-contacto,
 .titulo-publicaciones,
-.titulo-agregar {
+.titulo-agregar,
+.titulo-descripcion {
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 50px;

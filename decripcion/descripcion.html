@@ -32,17 +32,20 @@
 
             <section class="Descripcion">
                 <div class="container">
+                    <h1 class="titulo-descripcion">Descripcion del producto</h1>
 
-                    <div class="descripcion">
-                        <div class="imagen-descripcion">
-                            <input type="url" id="url" data-imagen>
-                        </div>
+                    <div class="descripcion" data-descripcion-div>
 
-                        <h3 data-titulo>Honda Cbr</h3>
-                        <p data-desarrollo>desa</p>
-                        <p class=" costo " data-costo>$300.00</p>
-                        <a href="# " class="enlace " data-compra>Ver producto</a>
+                        <input class="caja-img-descripcion" type="img" name="url" id="url" readonly data-img-descripcion>
+
+                        <form class="form-descripcion" data-form-descripcion>
+                            <input class="input-producto" type="text" name="nombreProducto" id="nombreProducto" readonly data-nombre>
+                            <input class="input-descripcion" type="text" name="descripcion" id="descripcion" readonly data-descripcion>
+                            <button class="boton-descripcion" type="submit" data-boton>Comprar</button>
+                            <a class="input-cancelar" href="../index.html">Cancelar Compra</a>
+                        </form>
                     </div>
+
                 </div>
             </section>
 
@@ -94,7 +97,7 @@
         <a href="https://github.com/aldayan "><img src="../assets/img/github.png " alt="logo de github "></a>
 
     </footer>
-
+    <script type="module" src="../assets/js/descripcion-producto.js"></script>
 </body>
 
 </html>

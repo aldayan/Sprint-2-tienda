@@ -1,48 +1,80 @@
-/*----------------------------
+    /*----------------------------
 
 pizarra
 
 ----------------------------*/
-
-.Descripcion .container {
-    display: flex;
-    background: rgba(0, 0, 0, 0.4);
-    padding: 30px;
-}
-
-.descripcion {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    padding-top: 40px;
-}
-
-.form-descripcion {
-    display: flex;
-    margin: 40px;
-    width: 40%;
-    justify-content: space-between;
-    font-size: 50px;
-    align-items: center;
-}
-
-.input-descripcion {
-    margin: 10px;
-    height: 200px;
-    text-align: center;
-    color: black;
-}
-
-.boton-descripcion {
-    border: solid 1px;
-    border-radius: 10px;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    font-family: 'fuente';
-    cursor: pointer;
-    font-size: 25px;
-    margin: 20px;
-}
+    
+    .Descripcion .container {
+        display: flex;
+        background: rgba(0, 0, 0, 0.4);
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .descripcion {
+        display: flex;
+        align-items: center;
+    }
+    
+    .caja-img-descripcion {
+        display: flex;
+        margin: 20px;
+        width: 50%;
+        height: 500px;
+        border-radius: 10px;
+        background-size: cover;
+        justify-content: right;
+        box-shadow: 0px 0px 30px rgba(243, 236, 236, 0.404);
+    }
+    
+    .form-descripcion {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 50px;
+    }
+    
+    .input-producto {
+        padding: 20px;
+        text-align: center;
+        background-color: black;
+        border: none;
+        color: white;
+        font-size: 30px;
+    }
+    
+    .input-descripcion {
+        width: 100px;
+        padding: 150px;
+        margin: 30px;
+        text-align: center;
+        background-color: black;
+        border: none;
+        transition: 1s;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .boton-descripcion {
+        border: solid 1px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        font-family: 'fuente';
+        cursor: pointer;
+        font-size: 20px;
+        margin: 10px;
+    }
+    
+    .input-cancelar {
+        border: solid 1px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        font-family: 'fuente';
+        cursor: pointer;
+        font-size: 20px;
+        text-decoration: none;
+    }
