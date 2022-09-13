@@ -5,20 +5,18 @@ const crearNueva = (url, nombreProducto, costo, id) => {
 
 
     const tarjeta = document.createElement('div');
-
-
-    const conten = `
+    const contenedor = `
     <div class="caja-motos" style="background-image:url(${url}); background-position: center;">
-    <div class="caja-contenido">
+    <div class="caja-contenido" >
         <h3>${nombreProducto}</h3>
-        <p class="costo">$${costo}</p>
+        <p class="costo" >$${costo}</p>
         <hr>
-        <a href="./decripcion/descripcion.html?id=${id}" class="enlace">Ver producto</a>
+        <a href="./decripcion/descripcion.html?id=${id}" class="enlace" >Ver producto</a>
     </div>
 </div>
 `
 
-    tarjeta.innerHTML = conten;
+    tarjeta.innerHTML = contenedor;
 
     return tarjeta;
 };
@@ -27,7 +25,7 @@ const crearNueva = (url, nombreProducto, costo, id) => {
 
 
 //agreganado producto a la tarjeta
-const contener = document.querySelector('[data-deportiva]');
+const contenerdeportiva = document.querySelector('[data-deportiva]');
 
 
 service.listaProducto().then((data) => {
@@ -36,7 +34,7 @@ service.listaProducto().then((data) => {
 
         const Tarjeta = crearNueva(url, nombreProducto, costo, id);
 
-        contener.appendChild(Tarjeta);
+        contenerdeportiva.appendChild(Tarjeta);
     });
 
 }).catch((error) => alert('ocurrio un error'));
