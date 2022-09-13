@@ -425,7 +425,15 @@ a img:hover {
     }
     .desarrollo .container {
         background: white;
+        display: flex;
+        flex-direction: column;
+        background: url(../img/celular.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
     }
+    
     .titulo-deportivas,
     .titulo-harley,
     .titulo-motocross,
