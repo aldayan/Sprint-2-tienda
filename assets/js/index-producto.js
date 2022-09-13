@@ -23,18 +23,50 @@ const crearNueva = (url, nombreProducto, costo, id) => {
 
 
 
+const cards = [{
 
-//agreganado producto a la tarjeta
-const contenerdeportiva = document.querySelector('[data-deportiva]');
+    category: "data-deportiva",
+    value: 1
+
+}, {
+
+    category: "data-harley",
+    value: 2
+}, {
+
+    category: "data-motocross",
+    value: 3
+}, {
+
+    category: "data-todas",
+    value: 4
+
+}];
+
+
+
+
+
 
 
 service.listaProducto().then((data) => {
+    console.log(data);
+    cards.forEach(c => {
 
-    data.forEach(({ url, nombreProducto, costo, id }) => {
 
-        const Tarjeta = crearNueva(url, nombreProducto, costo, id);
+        let parent = document.querySelectorAll(`[${c.category}]`)[0];
+        
+        const filtered = data.filter(ca=>ca.categoria==c.value)
 
-        contenerdeportiva.appendChild(Tarjeta);
+        filtered.forEach(({ url, nombreProducto, costo, id }) => {
+
+            const Tarjeta = crearNueva(url, nombreProducto, costo, id);
+    
+            parent.appendChild(Tarjeta);
+        });
+
     });
 
-}).catch((error) => alert('ocurrio un error'));
+
+}).catch((error) => {alert('ocurrio un error');
+});

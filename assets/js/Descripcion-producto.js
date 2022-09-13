@@ -22,7 +22,7 @@ const obtenerInformacion = () => {
 
     service.detalleProducto(id).then((perfil) => {
 
-        img.value = perfil.url;
+        img.src = perfil.url;
         nombreProducto.value = perfil.nombreProducto;
         descripcion.value = perfil.descripcion;
 
@@ -34,19 +34,3 @@ const obtenerInformacion = () => {
 
 obtenerInformacion();
 
-
-formulario.addEventListener('submit', (evento) => {
-    evento.preventDefault();
-
-    const ur = new URL(window.location);
-    const id = ur.searchParams.get("id");
-
-    const img = document.querySelector('[data-img-descripcion]').value;
-    const nombreProducto = document.querySelector('[data-nombre]').value;
-    const descripcion = document.querySelector('[data-descripcion]').value;
-
-
-    service.actualizarProducto(img, nombreProducto, descripcion, id).then(() => {
-        window.location.href = '/administracion/administracion.html';
-    })
-});
