@@ -421,19 +421,13 @@ a img:hover {
 
 @media (max-width: 768px) {
     body {
-        color: black;
+        color: rgb(240, 234, 234);
     }
     .desarrollo .container {
-        background: white;
-        display: flex;
-        flex-direction: column;
-        background: url(../img/celular.jpeg);
-        background-position: center ;
-        background-attachment: fixed;
-        background-size: cover;
-        
+        background: #000000;
+
     }
-    
+
     .titulo-deportivas,
     .titulo-harley,
     .titulo-motocross,
@@ -442,7 +436,7 @@ a img:hover {
     .titulo-contacto,
     .titulo-publicaciones,
     .titulo-agregar {
-        color: black;
+        color: white;
     }
     .deportiva,
     .harley,
@@ -450,13 +444,13 @@ a img:hover {
     .veloces,
     .todas {
         display: flex;
-        justify-content: center;
+       justify-content: center;
     }
     .enlace-menu {
         margin: 20px;
     }
     .ver {
-        color: black;
+        color: white;
     }
     .caja-motos {
         margin-bottom: 250px;
@@ -486,7 +480,7 @@ a img:hover {
     }
     .contacto-subtexto,
     .preguntas {
-        color: black;
+        color: white;
     }
     .descripcion-pizarra,
     footer p {

@@ -78,3 +78,47 @@ pizarra
         font-size: 20px;
         text-decoration: none;
     }
+
+
+
+    
+/*------------------------------------------*/
+
+
+/*responsive 768*/
+
+
+/*------------------------------------------*/
+
+@media (max-width: 768px) {
+    .Descripcion .container {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+       
+    }.caja-img-descripcion{
+        display: flex;
+        margin: 20px;
+        width: 80%;
+        height: 400px;
+        
+    }
+    .descripcion{
+        display: flex;
+        flex-direction: column;justify-content: center;
+    }
+
+}
+
+
+/*------------------------------------------*/
+
+
+/*responsive 1200*/
+
+
+/*------------------------------------------*/
+
+@media (max-width: 1200px) {
+  
+}
