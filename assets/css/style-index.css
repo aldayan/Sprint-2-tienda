@@ -428,10 +428,9 @@ a img:hover {
         display: flex;
         flex-direction: column;
         background: url(../img/celular.jpg);
-       
-        background-position: center center;
+        background-position: center ;
         background-attachment: fixed;
-        background-size: cover;
+        
     }
     
     .titulo-deportivas,
