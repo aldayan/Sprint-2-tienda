@@ -427,7 +427,7 @@ a img:hover {
         background: white;
         display: flex;
         flex-direction: column;
-        background: url(../img/celu.jpg);
+        background: url(../img/celular.jpeg);
         background-position: center ;
         background-attachment: fixed;
         background-size: cover;
