@@ -427,10 +427,11 @@ a img:hover {
         background: white;
         display: flex;
         flex-direction: column;
-        background: url(../img/celular.gif);
+        background: url(../img/celu.jpg);
         background-position: center ;
         background-attachment: fixed;
         background-size: cover;
+        
     }
     
     .titulo-deportivas,
