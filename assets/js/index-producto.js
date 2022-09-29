@@ -36,11 +36,6 @@ const cards = [{
 
     category: "data-motocross",
     value: 3
-}, {
-
-    category: "data-todas",
-    value: 4
-
 }];
 
 
@@ -55,18 +50,19 @@ service.listaProducto().then((data) => {
 
 
         let parent = document.querySelectorAll(`[${c.category}]`)[0];
-        
-        const filtered = data.filter(ca=>ca.categoria==c.value)
+
+        const filtered = data.filter(ca => ca.categoria == c.value)
 
         filtered.forEach(({ url, nombreProducto, costo, id }) => {
 
             const Tarjeta = crearNueva(url, nombreProducto, costo, id);
-    
+
             parent.appendChild(Tarjeta);
         });
 
     });
 
 
-}).catch((error) => {alert('ocurrio un error');
+}).catch((error) => {
+    alert('ocurrio un error');
 });

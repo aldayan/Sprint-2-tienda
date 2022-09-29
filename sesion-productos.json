@@ -1,12 +1,148 @@
 {
   "sesionYproductos": [
     {
-      "url": "data:image/jpeg;base64,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",
+      "url": "https://i.pinimg.com/736x/61/6c/3c/616c3c157b7661c9fffda4d15c37a3ab.jpg",
       "categoria": "1",
       "nombreProducto": "Kawasaki Ninja",
-      "costo": "400",
+      "costo": "400.00",
       "descripcion": " Ninja H2R es una moto sin igual con soluciones tecnológicas que se extienden a otras motos dentro de la familia Ninja. La principal es el “supercharger” integrado, diseñado y fabricado al 100% por Kawasaki, equipado con una turbina que, a máximas revoluciones, rompe realmente la velocidad del sonido.",
       "id": 1
+    },
+    {
+      "url": "https://i.pinimg.com/originals/e9/c4/4a/e9c44aa8a996fccc4c5739ec671834e7.png",
+      "categoria": "1",
+      "nombreProducto": "Ducati Paniagle",
+      "costo": "300.00",
+      "descripcion": "La Panigale V4 2023 representa el último paso en el camino característico de las motos deportivas Borgo Panigale y toma vida de la experiencia de muchos años de Ducati Corse unida al continuo intercambio de conocimientos y tecnología del mundo de las carreras directamente a las motos de producción.",
+      "id": 2
+    },
+    {
+      "url": "https://wallpapercave.com/wp/wp4941337.jpg",
+      "categoria": "1",
+      "nombreProducto": "Aston Martin AMB",
+      "costo": "400.00",
+      "descripcion": "Estrictamente limitado a solo 100 motocicletas, el AMB 001 solo para pista representa la unión del diseño icónico de Aston Martin y la ingeniería de vanguardia de Brough Superior para crear una obra de arte dinámica para el conocedor de motocicletas.",
+      "id": 3
+    },
+    {
+      "url": "https://wallpaperaccess.com/full/463249.jpg",
+      "categoria": "1",
+      "nombreProducto": "Yamaha R-uno",
+      "costo": "350.00",
+      "descripcion": "Cada componente de tecnología avanzada utilizado en la YZF-R1 ha sido desarrollado a partir de los conocimientos adquiridos como resultado de la implicación de Yamaha en la competición de más alto nivel. Su increíble motor de cuatro cilindros crossplane de 998 cc es un descendiente directo de la M1, mientras que su carrocería aerodinámica es fruto directo de los avances en competición.",
+      "id": 4
+    },
+    {
+      "url": "https://w0.peakpx.com/wallpaper/864/369/HD-wallpaper-2014-honda-cbr-1000rr-bike-motor-1000rr-honda-cbr.jpg",
+      "categoria": "1",
+      "nombreProducto": "Honda CBR",
+      "costo": "300.00",
+      "descripcion": "La Honda CBR 1000 RR R Fireblade cumple 30 años en 2022. Ya en su edición 2020 se desarrolló una máquina completamente nueva desde la base, creada con un inequívoco enfoque hacia el circuito. Ahora, para 2022, el desarrollo de su motor de cuatro cilindros en línea con 160 kW a 14,500rpm se ha centrado en la aceleración y la tracción a mitad de curva.",
+      "id": 5
+    },
+    {
+      "url": "https://i.pinimg.com/originals/0a/36/d6/0a36d6031d3021719e49067ff1c04925.jpg",
+      "categoria": "1",
+      "nombreProducto": "Susuki GSX-R",
+      "costo": "200.00",
+      "descripcion": "Imponente relación Peso/Potencia para ser una de las lidere en el segmento de 150 - 200 cm3 además de poseer un manejo ágil y gran economía de combustible. Esta motocicleta incluye inyección electrónica de combustible, luces LED, refrigeración por líquido y 18.9 caballos de fuerza para que conviertas tu camino en una pista.",
+      "id": 6
+    },
+    {
+      "url": "https://imgd.aeplcdn.com/1056x594/n/bw/models/colors/undefined-vivid-black-1579861781843.jpg?q=75",
+      "categoria": "2",
+      "nombreProducto": "Harley Davidson Fat Boy",
+      "costo": "300.00",
+      "descripcion": "La Harley-Davidson Fat Boy es una motocicleta cruiser softail V-twin con ruedas de disco de fundición sólida. Diseñado por Willie G. Davidson y Louie Netz, Harley-Davidson construyó un prototipo de Fat Boy en Milwaukee para el rally Daytona Bike Week en Daytona Beach en 1988 y 1989",
+      "id": 7
+    },
+    {
+      "url": "https://w0.peakpx.com/wallpaper/476/164/HD-wallpaper-harley-davidson-2014-dyna-street-bob-bike-black-chrome.jpg",
+      "categoria": "2",
+      "nombreProducto": "Harley Davidson Street Bod",
+      "costo": "300.00",
+      "descripcion": "La Harley-Davidson Street Bob es la más básica de la familia Softail, equipada con el motor Milwaukee-Eight 114, el más potente de los montados en esta gama. Es una moto con una llamativa imagen Bobber en donde destacan su manillar \"mini-ape\", un cuelga monos no demasiado exagerado, y sus guardabarros recortados. En 2022 sustituye sus llantas de radios por unas de palos Annihilator con acabado Gloss Black.",
+      "id": 8
+    },
+    {
+      "url": "https://virtuoart.com/public/uploads/preview/990ec6f5111f2e05813571b63abd3633-62021588164392lfyltlgyff.jpg",
+      "categoria": "2",
+      "nombreProducto": "Harley Davidson Fat Bod",
+      "costo": "250.00",
+      "descripcion": "La motocicleta Fat Bob ® 2022 presenta un estilo agresivo y sin complejos, un rendimiento y un manejo alucinantes, acabados premium y un motor Milwaukee",
+      "id": 9
+    },
+    {
+      "url": "https://s3.eu-west-1.amazonaws.com/cdn.motorbikemag.es/wp-content/uploads/2017/11/Harley-Davidson-Sport-Glide-2018-06.jpg",
+      "categoria": "2",
+      "nombreProducto": "Harley Davidson Sport Glide",
+      "costo": "400.00",
+      "descripcion": "Motociclistas amantes a partes iguales de las prestaciones y las características touring\nA punto siempre para viajar con accesorios para el touring desmontables\nMotor Milwaukee-Eight™ 107 V-Twin y llantas Mantis",
+      "id": 10
+    },
+    {
+      "url": "https://c4.wallpaperflare.com/wallpaper/27/959/760/harley-davidson-softail-breakout-side-view-red-motorcycle-wallpaper-preview.jpg",
+      "categoria": "2",
+      "nombreProducto": "Harley Davidson Breakout",
+      "costo": "250.00",
+      "descripcion": "Larga, simple y esbelta. Una poderosa chopper moderna que convierte los semáforos en pistas de arrastre. Su increíble par de torsión te permite salir a toda velocidad al tener la luz verde del semáforo, al subir rampas de entrada y al desplazarte en un adelantamiento. Sonido puro con un estruendo que gratifica el alma.\n",
+      "id": 11
+    },
+    {
+      "url": "https://i.pinimg.com/originals/e2/ce/43/e2ce43d27f24bbc53b86a8ab5ab05851.jpg",
+      "categoria": "2",
+      "nombreProducto": "Harley Davidson Low Rider",
+      "costo": "500.00",
+      "descripcion": "Una motocicleta Cruiser con rendimiento personalizado de fábrica y oscurecida. El motor de alto rendimiento con enfriamiento de precisión por aire/aceite es la nueva máxima expresión en desplazamiento y par de torsión en un tren de potencia Harley-Davidson™ instalado de fábrica.",
+      "id": 12
+    },
+    {
+      "url": "https://wallpapercave.com/wp/ySfNb0e.jpg",
+      "categoria": "3",
+      "nombreProducto": "KTM SX-F",
+      "costo": "300.00",
+      "descripcion": "El motor de la 450 SX-F entrega una potencia de 62 CV y dispondrá de inyección electrónica. Su cambio de 4 marchas presenta una relación de transmisión adaptada en 1ª y 3ª, para controlar toda la potencia del motor, y adaptado para este tipo de conducción y soportar los rigores del motocross.",
+      "id": 13
+    },
+    {
+      "url": "https://wallpaperaccess.com/full/2380885.jpg",
+      "categoria": "3",
+      "nombreProducto": "Honda CRF",
+      "costo": "500.00",
+      "descripcion": "La Honda CRF450R 2019 es muy similar a la moto del año pasado. Esta 'cuatro y medio' de motocross afina su rendimiento con un aumento de 1,8 kW más de potencia y 2 Nm de par y una entrega más enérgica a lo largo de todo el rango de revoluciones sin penalizar su finura en bajas.",
+      "id": 14
+    },
+    {
+      "url": "https://dirtbikemagazine.com/wp-content/uploads/2018/06/RCHondaCR250R.jpg",
+      "categoria": "3",
+      "nombreProducto": "Honda CR",
+      "costo": "350.00",
+      "descripcion": "Altura del asiento: 933 mm. Capacidad del depósito: 7.5 litros. Distancia entre ejes: 1487 mm. Peso en seco: 97 Kg.",
+      "id": 15
+    },
+    {
+      "url": "https://avtotachki.com/wp-content/uploads/2020/06/husqvarna-cr-1251.jpg",
+      "categoria": "3",
+      "nombreProducto": "Husqvarna CR",
+      "costo": "300.00",
+      "descripcion": "Altura del asiento: 985 mm. Capacidad del depósito: 7 litros. Distancia entre ejes: 1460 mm. Peso en seco: 94 Kg.",
+      "id": 16
+    },
+    {
+      "url": "https://cloud.leparking-moto.fr/2022/07/21/12/37/kawasaki-kx-2021-kawasaki-kx-100-vert_181060487.jpg",
+      "categoria": "3",
+      "nombreProducto": "Kawasaki KX",
+      "costo": "200.00",
+      "descripcion": "Altura del asiento: 940 mm. Capacidad del depósito: 8.5 litros. Distancia entre ejes: 1520 mm. Peso en seco: 97 Kg.",
+      "id": 17
+    },
+    {
+      "url": "https://images8.alphacoders.com/913/thumb-1920-913432.jpg",
+      "categoria": "3",
+      "nombreProducto": "Yamaha YZ",
+      "costo": "250.00",
+      "descripcion": "Capacidad del depósito: 6.2 litros. Distancia entre ejes: 1475 mm. Peso en orden de marcha: 106 Kg. Largo x ancho x alto: 2175 x 825 x 1285mm.",
+      "id": 18
     }
   ]
 }
