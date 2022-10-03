@@ -425,9 +425,7 @@ a img:hover {
     }
     .desarrollo .container {
         background: #000000;
-
     }
-
     .titulo-deportivas,
     .titulo-harley,
     .titulo-motocross,
@@ -444,7 +442,7 @@ a img:hover {
     .veloces,
     .todas {
         display: flex;
-       justify-content: center;
+        justify-content: center;
     }
     .enlace-menu {
         margin: 20px;
@@ -452,17 +450,10 @@ a img:hover {
     .ver {
         color: white;
     }
-    .caja-motos {
-        margin-bottom: 250px;
-    }
     .caja-contenido {
-        margin-top: 215px;
+        margin-top: 30px;
         background: rgba(0, 0, 0, 0.959);
         border-radius: 0px;
-    }
-    .caja-motos .caja-contenido {
-        opacity: 1;
-        cursor: pointer;
     }
     .informacion-contacto {
         justify-content: center;
