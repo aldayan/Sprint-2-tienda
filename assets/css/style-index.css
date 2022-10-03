@@ -421,10 +421,10 @@ a img:hover {
 
 @media (max-width: 768px) {
     body {
-        color: black;
+        color: rgb(240, 234, 234);
     }
     .desarrollo .container {
-        background: white;
+        background: #000000;
     }
     .titulo-deportivas,
     .titulo-harley,
@@ -434,7 +434,7 @@ a img:hover {
     .titulo-contacto,
     .titulo-publicaciones,
     .titulo-agregar {
-        color: black;
+        color: white;
     }
     .deportiva,
     .harley,
@@ -448,19 +448,12 @@ a img:hover {
         margin: 20px;
     }
     .ver {
-        color: black;
-    }
-    .caja-motos {
-        margin-bottom: 250px;
+        color: white;
     }
     .caja-contenido {
-        margin-top: 215px;
+        margin-top: 30px;
         background: rgba(0, 0, 0, 0.959);
         border-radius: 0px;
-    }
-    .caja-motos .caja-contenido {
-        opacity: 1;
-        cursor: pointer;
     }
     .informacion-contacto {
         justify-content: center;
@@ -478,7 +471,7 @@ a img:hover {
     }
     .contacto-subtexto,
     .preguntas {
-        color: black;
+        color: white;
     }
     .descripcion-pizarra,
     footer p {

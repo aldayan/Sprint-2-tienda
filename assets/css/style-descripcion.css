@@ -41,18 +41,18 @@ pizarra
         border: none;
         color: white;
         font-size: 30px;
+        font-family: 'fuente';
     }
     
     .input-descripcion {
-        width: 100px;
-        padding: 150px;
         margin: 30px;
-        text-align: center;
         background-color: black;
-        border: none;
         transition: 1s;
         color: white;
-        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+        font-size: 16px;
+        font-style: italic;
     }
     
     .boton-descripcion {
@@ -78,3 +78,31 @@ pizarra
         font-size: 20px;
         text-decoration: none;
     }
+    /*------------------------------------------*/
+    /*responsive 768*/
+    /*------------------------------------------*/
+    
+    @media (max-width: 768px) {
+        .Descripcion .container {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+        }
+        .caja-img-descripcion {
+            display: flex;
+            margin: 20px;
+            width: 100%;
+            height: 300px;
+            background-position: center;
+        }
+        .descripcion {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+    /*------------------------------------------*/
+    /*responsive 1200*/
+    /*------------------------------------------*/
+    
+    @media (max-width: 1200px) {}
