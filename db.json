@@ -1,0 +1,148 @@
+{
+  "sesionYproductos": [
+    {
+      "url": "https://i.pinimg.com/736x/61/6c/3c/616c3c157b7661c9fffda4d15c37a3ab.jpg",
+      "categoria": "1",
+      "nombreProducto": "Kawasaki Ninja",
+      "costo": "400.00",
+      "descripcion": " Ninja H2R es una moto sin igual con soluciones tecnológicas que se extienden a otras motos dentro de la familia Ninja. La principal es el “supercharger” integrado, diseñado y fabricado al 100% por Kawasaki, equipado con una turbina que, a máximas revoluciones, rompe realmente la velocidad del sonido.",
+      "id": 1
+    },
+    {
+      "url": "https://c4.wallpaperflare.com/wallpaper/333/850/575/2019-ducati-panigale-v4-r-4k-wallpaper-preview.jpg",
+      "categoria": "1",
+      "nombreProducto": "Ducati Paniagle",
+      "costo": "300.00",
+      "descripcion": "La Panigale V4 2023 representa el último paso en el camino característico de las motos deportivas Borgo Panigale y toma vida de la experiencia de muchos años de Ducati Corse unida al continuo intercambio de conocimientos y tecnología del mundo de las carreras directamente a las motos de producción.",
+      "id": 2
+    },
+    {
+      "url": "https://wallpapercave.com/wp/wp4941337.jpg",
+      "categoria": "1",
+      "nombreProducto": "Aston Martin AMB",
+      "costo": "400.00",
+      "descripcion": "Estrictamente limitado a solo 100 motocicletas, el AMB 001 solo para pista representa la unión del diseño icónico de Aston Martin y la ingeniería de vanguardia de Brough Superior para crear una obra de arte dinámica para el conocedor de motocicletas.",
+      "id": 3
+    },
+    {
+      "url": "https://wallpaperaccess.com/full/463249.jpg",
+      "categoria": "1",
+      "nombreProducto": "Yamaha R-uno",
+      "costo": "350.00",
+      "descripcion": "Cada componente de tecnología avanzada utilizado en la YZF-R1 ha sido desarrollado a partir de los conocimientos adquiridos como resultado de la implicación de Yamaha en la competición de más alto nivel. Su increíble motor de cuatro cilindros crossplane de 998 cc es un descendiente directo de la M1, mientras que su carrocería aerodinámica es fruto directo de los avances en competición.",
+      "id": 4
+    },
+    {
+      "url": "https://w0.peakpx.com/wallpaper/864/369/HD-wallpaper-2014-honda-cbr-1000rr-bike-motor-1000rr-honda-cbr.jpg",
+      "categoria": "1",
+      "nombreProducto": "Honda CBR",
+      "costo": "300.00",
+      "descripcion": "La Honda CBR 1000 RR R Fireblade cumple 30 años en 2022. Ya en su edición 2020 se desarrolló una máquina completamente nueva desde la base, creada con un inequívoco enfoque hacia el circuito. Ahora, para 2022, el desarrollo de su motor de cuatro cilindros en línea con 160 kW a 14,500rpm se ha centrado en la aceleración y la tracción a mitad de curva.",
+      "id": 5
+    },
+    {
+      "url": "https://i.pinimg.com/originals/0a/36/d6/0a36d6031d3021719e49067ff1c04925.jpg",
+      "categoria": "1",
+      "nombreProducto": "Susuki GSX-R",
+      "costo": "200.00",
+      "descripcion": "Imponente relación Peso/Potencia para ser una de las lidere en el segmento de 150 - 200 cm3 además de poseer un manejo ágil y gran economía de combustible. Esta motocicleta incluye inyección electrónica de combustible, luces LED, refrigeración por líquido y 18.9 caballos de fuerza para que conviertas tu camino en una pista.",
+      "id": 6
+    },
+    {
+      "url": "https://imgd.aeplcdn.com/1056x594/n/bw/models/colors/undefined-vivid-black-1579861781843.jpg?q=75",
+      "categoria": "2",
+      "nombreProducto": "Harley Davidson Fat Boy",
+      "costo": "300.00",
+      "descripcion": "La Harley-Davidson Fat Boy es una motocicleta cruiser softail V-twin con ruedas de disco de fundición sólida. Diseñado por Willie G. Davidson y Louie Netz, Harley-Davidson construyó un prototipo de Fat Boy en Milwaukee para el rally Daytona Bike Week en Daytona Beach en 1988 y 1989",
+      "id": 7
+    },
+    {
+      "url": "https://w0.peakpx.com/wallpaper/476/164/HD-wallpaper-harley-davidson-2014-dyna-street-bob-bike-black-chrome.jpg",
+      "categoria": "2",
+      "nombreProducto": "Harley Davidson Street Bod",
+      "costo": "300.00",
+      "descripcion": "La Harley-Davidson Street Bob es la más básica de la familia Softail, equipada con el motor Milwaukee-Eight 114, el más potente de los montados en esta gama. Es una moto con una llamativa imagen Bobber en donde destacan su manillar \"mini-ape\", un cuelga monos no demasiado exagerado, y sus guardabarros recortados. En 2022 sustituye sus llantas de radios por unas de palos Annihilator con acabado Gloss Black.",
+      "id": 8
+    },
+    {
+      "url": "https://virtuoart.com/public/uploads/preview/990ec6f5111f2e05813571b63abd3633-62021588164392lfyltlgyff.jpg",
+      "categoria": "2",
+      "nombreProducto": "Harley Davidson Fat Bod",
+      "costo": "250.00",
+      "descripcion": "La motocicleta Fat Bob ® 2022 presenta un estilo agresivo y sin complejos, un rendimiento y un manejo alucinantes, acabados premium y un motor Milwaukee",
+      "id": 9
+    },
+    {
+      "url": "https://s3.eu-west-1.amazonaws.com/cdn.motorbikemag.es/wp-content/uploads/2017/11/Harley-Davidson-Sport-Glide-2018-06.jpg",
+      "categoria": "2",
+      "nombreProducto": "Harley Davidson Sport Glide",
+      "costo": "400.00",
+      "descripcion": "Motociclistas amantes a partes iguales de las prestaciones y las características touring\nA punto siempre para viajar con accesorios para el touring desmontables\nMotor Milwaukee-Eight™ 107 V-Twin y llantas Mantis",
+      "id": 10
+    },
+    {
+      "url": "https://c4.wallpaperflare.com/wallpaper/27/959/760/harley-davidson-softail-breakout-side-view-red-motorcycle-wallpaper-preview.jpg",
+      "categoria": "2",
+      "nombreProducto": "Harley Davidson Breakout",
+      "costo": "250.00",
+      "descripcion": "Larga, simple y esbelta. Una poderosa chopper moderna que convierte los semáforos en pistas de arrastre. Su increíble par de torsión te permite salir a toda velocidad al tener la luz verde del semáforo, al subir rampas de entrada y al desplazarte en un adelantamiento. Sonido puro con un estruendo que gratifica el alma.\n",
+      "id": 11
+    },
+    {
+      "url": "https://i.pinimg.com/originals/e2/ce/43/e2ce43d27f24bbc53b86a8ab5ab05851.jpg",
+      "categoria": "2",
+      "nombreProducto": "Harley Davidson Low Rider",
+      "costo": "500.00",
+      "descripcion": "Una motocicleta Cruiser con rendimiento personalizado de fábrica y oscurecida. El motor de alto rendimiento con enfriamiento de precisión por aire/aceite es la nueva máxima expresión en desplazamiento y par de torsión en un tren de potencia Harley-Davidson™ instalado de fábrica.",
+      "id": 12
+    },
+    {
+      "url": "https://wallpapercave.com/wp/ySfNb0e.jpg",
+      "categoria": "3",
+      "nombreProducto": "KTM SX-F",
+      "costo": "300.00",
+      "descripcion": "El motor de la 450 SX-F entrega una potencia de 62 CV y dispondrá de inyección electrónica. Su cambio de 4 marchas presenta una relación de transmisión adaptada en 1ª y 3ª, para controlar toda la potencia del motor, y adaptado para este tipo de conducción y soportar los rigores del motocross.",
+      "id": 13
+    },
+    {
+      "url": "https://wallpaperaccess.com/full/2380885.jpg",
+      "categoria": "3",
+      "nombreProducto": "Honda CRF",
+      "costo": "500.00",
+      "descripcion": "La Honda CRF450R 2019 es muy similar a la moto del año pasado. Esta 'cuatro y medio' de motocross afina su rendimiento con un aumento de 1,8 kW más de potencia y 2 Nm de par y una entrega más enérgica a lo largo de todo el rango de revoluciones sin penalizar su finura en bajas.",
+      "id": 14
+    },
+    {
+      "url": "https://dirtbikemagazine.com/wp-content/uploads/2018/06/RCHondaCR250R.jpg",
+      "categoria": "3",
+      "nombreProducto": "Honda CR",
+      "costo": "350.00",
+      "descripcion": "Altura del asiento: 933 mm. Capacidad del depósito: 7.5 litros. Distancia entre ejes: 1487 mm. Peso en seco: 97 Kg.",
+      "id": 15
+    },
+    {
+      "url": "https://avtotachki.com/wp-content/uploads/2020/06/husqvarna-cr-1251.jpg",
+      "categoria": "3",
+      "nombreProducto": "Husqvarna CR",
+      "costo": "300.00",
+      "descripcion": "Altura del asiento: 985 mm. Capacidad del depósito: 7 litros. Distancia entre ejes: 1460 mm. Peso en seco: 94 Kg.",
+      "id": 16
+    },
+    {
+      "url": "https://cloud.leparking-moto.fr/2022/07/21/12/37/kawasaki-kx-2021-kawasaki-kx-100-vert_181060487.jpg",
+      "categoria": "3",
+      "nombreProducto": "Kawasaki KX",
+      "costo": "200.00",
+      "descripcion": "Altura del asiento: 940 mm. Capacidad del depósito: 8.5 litros. Distancia entre ejes: 1520 mm. Peso en seco: 97 Kg.",
+      "id": 17
+    },
+    {
+      "url": "https://images8.alphacoders.com/913/thumb-1920-913432.jpg",
+      "categoria": "3",
+      "nombreProducto": "Yamaha YZ",
+      "costo": "250.00",
+      "descripcion": "Capacidad del depósito: 6.2 litros. Distancia entre ejes: 1475 mm. Peso en orden de marcha: 106 Kg. Largo x ancho x alto: 2175 x 825 x 1285mm.",
+      "id": 18
+    }
+  ]
+}
