@@ -424,7 +424,7 @@ a img:hover {
         color: rgb(240, 234, 234);
     }
     .desarrollo .container {
-        background: #000000;
+        background: #ebe6e6;
     }
     .titulo-deportivas,
     .titulo-harley,
@@ -434,7 +434,7 @@ a img:hover {
     .titulo-contacto,
     .titulo-publicaciones,
     .titulo-agregar {
-        color: white;
+        color: rgb(14, 13, 13);
     }
     .deportiva,
     .harley,
@@ -448,7 +448,7 @@ a img:hover {
         margin: 20px;
     }
     .ver {
-        color: white;
+        color: rgb(22, 22, 22);
     }
     .caja-contenido {
         margin-top: 30px;
@@ -471,73 +471,11 @@ a img:hover {
     }
     .contacto-subtexto,
     .preguntas {
-        color: white;
+        color: rgb(10, 10, 10);
     }
     .descripcion-pizarra,
     footer p {
         color: white;
-    }
-    .objeto {
-        width: 100%;
-        height: 100%;
-    }
-    .box li {
-        position: absolute;
-        display: block;
-        list-style: none;
-        width: 25px;
-        height: 25px;
-        background: rgb(243, 240, 240);
-        animation: animate 20s linear infinite;
-        top: 1;
-        border-radius: 50%;
-    }
-    .box li:nth-child(1) {
-        Left: 75%;
-        width: 80px;
-        height: 80px;
-        animation-delay: 0s;
-    }
-    .box li:nth-child(2) {
-        Left: 12%;
-        width: 30px;
-        height: 30px;
-        animation-delay: 1.5s;
-        animation-duration: 10s;
-    }
-    .box li:nth-child(3) {
-        Left: 70%;
-        width: 100px;
-        height: 100px;
-        animation-delay: 5.5s;
-    }
-    .box li:nth-child(4) {
-        Left: 45%;
-        width: 150px;
-        height: 150px;
-        animation-delay: 0s;
-        animation-duration: 15s;
-    }
-    .box li:nth-child(5) {
-        Left: 65%;
-        width: 40px;
-        height: 40px;
-        animation-delay: 0s;
-    }
-    .box li:nth-child(6) {
-        Left: 15%;
-        width: 110px;
-        height: 110px;
-        animation-delay: 3.5s;
-    }
-    @keyframes animate {
-        0% {
-            transform: translateY(0) scale(0);
-        }
-        100% {
-            transform: translateY(-7500px) scale(2);
-            opacity: 0;
-        }
     }
 }
 

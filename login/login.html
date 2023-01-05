@@ -34,16 +34,16 @@
                             <h3 class="login-titulo">Iniciar Sesion</h3>
                         </div>
                         <form class="login-form" id="form" name="form" data-form>
-                            <input class="login-input" type="email" name="email" id="email" placeholder="Escriba Su Correo Electronico" required data-email>
-                            <input class="login-input" type="password" name="contraseña" id="contraseña" placeholder="Escriba Su Contraseña" required data-contraseña>
-                            <button type="submit" id="iniciar" class="login-boton">Iniciar sesion</button>
+                            <input class="login-input" type="text" name="email" id="email" placeholder="Escriba su usuario" required data-email>
+                            <input class="login-input" type="password" name="contraseña" id="contraseña" placeholder="Escriba su contraseña" required data-contraseña>
+                            <button onclick=ir() type="button" id="iniciar" class="login-boton ">Iniciar sesion</button>
 
                         </form>
                     </div>
                 </div>
             </section>
 
-            <section class="contactos" id="contactos ">
+            <section class="contactos " id="contactos ">
                 <div class="container ">
                     <h2 class="titulo-contacto ">Conocenos y Contactanos</h2>
 
@@ -52,12 +52,12 @@
                             <img src="../assets/img/contacto.png " class="img-contacto " alt="rueda ">
 
                             <ul class="lista-informacion ">
-                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html"> Quienes Somos</a></li>
-                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html"> Políticas de privacidad</a></li>
-                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html">Programa de fidelidad</a></li>
-                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html">Nuestras Tiendas</a></li>
-                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html">Quiero ser Franquiciado</a></li>
-                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html">Anuncie Aquí</a></li>
+                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html "> Quienes Somos</a></li>
+                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html "> Políticas de privacidad</a></li>
+                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html ">Programa de fidelidad</a></li>
+                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html ">Nuestras Tiendas</a></li>
+                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html ">Quiero ser Franquiciado</a></li>
+                                <li class="list-info "><a class="preguntas " href="../informacion/informacion.html ">Anuncie Aquí</a></li>
                             </ul>
                         </nav>
 
@@ -65,11 +65,11 @@
                             <div class="titulos-contacto ">
                                 <h3 class=" contacto-subtexto ">Hablanos</h3>
                             </div>
-                            <form action="https://formsubmit.co/aldayanaavila02@gmail.com" method="POST" class="contacto-form" id="form" name="form">
-                                <input class="contacto-input" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
-                                <input class="contacto-input" type="email" id="email" name="email" placeholder="E-mail" required>
-                                <input class="contacto-input" type="text" id="asunto" name="asunto" placeholder="Asunto" required>
-                                <textarea class="contacto-input" rows="5" type="text" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea> <button type="submit " id="enviar " class="contacto-boton ">Enviar mensaje</button>
+                            <form action="https://formsubmit.co/aldayanaavila02@gmail.com " method="POST " class="contacto-form " id="form " name="form ">
+                                <input class="contacto-input " type="text " name="nombre " id="nombre " placeholder="Nombre " required>
+                                <input class="contacto-input " type="email " id="email " name="email " placeholder="E-mail " required>
+                                <input class="contacto-input " type="text " id="asunto " name="asunto " placeholder="Asunto " required>
+                                <textarea class="contacto-input " rows="5 " type="text " cols="40 " id="mensaje " name="mensaje " placeholder="Mensaje " required></textarea> <button type="submit " id="enviar " class="contacto-boton ">Enviar mensaje</button>
                                 <br>
                                 <p class="alerta " id="alerta "></p>
                             </form>
@@ -83,25 +83,16 @@
 
     <footer>
         <p>Hecho por
-            <a href="https://aldayan.github.io/sprint-1-portafolio/">Aldayan A. Avila Dotel </a>
+            <a href="https://aldayan.github.io/sprint-1-portafolio/ ">Aldayan A. Avila Dotel </a>
         </p>
         <a href="https://www.linkedin.com/in/aldayan-avila-b972a2239/ "><img src="../assets/img/linkedin.png " alt="logo de linkedin "></a>
-        <a href="https://github.com/aldayan"><img src="../assets/img/github.png " alt="logo de github "></a>
+        <a href="https://github.com/aldayan "><img src="../assets/img/github.png " alt="logo de github "></a>
     </footer>
 
-    <div class="objeto">
-        <ul class="box">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="module" src="../assets/js/login.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js " integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
+    <script src="../assets/js/login.js "></script>
 </body>
 
 </html>

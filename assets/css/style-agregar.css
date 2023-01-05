@@ -93,10 +93,9 @@ body {
 
 @media (max-width: 768px) {
     .agregados {
-    background: black;
-}
+        background: #ebe6e6;
+    }
     .agregar-form {
         width: 100%;
     }
-    
 }
