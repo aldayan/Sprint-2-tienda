@@ -52,6 +52,6 @@ formulario.addEventListener('submit', (evento) => {
 
 
     service.actualizarProducto(url, categoria, nombreProducto, costo, descripcion, id).then(() => {
-        window.location.href = '/administracion/administracion.html';
+        window.location.href = 'administracion.html';
     })
 });
