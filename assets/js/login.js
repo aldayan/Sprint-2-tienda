@@ -36,7 +36,7 @@ function ir() {
 
     if (email == A && contraseña == C) {
 
-        window.location.href = '../../administracion/administracion.html'
+        window.location.href = '../administracion/administracion.html'
 
     } else {
 
