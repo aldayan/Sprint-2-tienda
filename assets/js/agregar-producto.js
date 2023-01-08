@@ -15,6 +15,6 @@ formulario.addEventListener('submit', (evento) => {
 
 
     service.crearProducto(url, categoria, nombreProducto, costo, descripcion).then(() => {
-        window.location.href = '/administracion/administracion.html';
+        window.location.href = 'administracion.html';
     }).catch(err => console.log(err))
 });
