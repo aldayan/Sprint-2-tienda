@@ -45,7 +45,7 @@ const cards = [{
 
 
 service.listaProducto().then((data) => {
-    console.log(data);
+
     cards.forEach(c => {
 
 
