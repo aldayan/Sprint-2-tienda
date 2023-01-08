@@ -424,7 +424,7 @@ a img:hover {
         color: rgb(240, 234, 234);
     }
     .desarrollo .container {
-        background: #000000;
+        background: #ebe6e6;
     }
     .titulo-deportivas,
     .titulo-harley,
@@ -434,7 +434,7 @@ a img:hover {
     .titulo-contacto,
     .titulo-publicaciones,
     .titulo-agregar {
-        color: white;
+        color: rgb(14, 13, 13);
     }
     .deportiva,
     .harley,
@@ -448,7 +448,7 @@ a img:hover {
         margin: 20px;
     }
     .ver {
-        color: white;
+        color: rgb(22, 22, 22);
     }
     .caja-contenido {
         margin-top: 30px;
@@ -471,7 +471,7 @@ a img:hover {
     }
     .contacto-subtexto,
     .preguntas {
-        color: white;
+        color: rgb(10, 10, 10);
     }
     .descripcion-pizarra,
     footer p {

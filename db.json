@@ -1,14 +1,6 @@
 {
   "sesionYproductos": [
     {
-      "url": "https://i.pinimg.com/736x/61/6c/3c/616c3c157b7661c9fffda4d15c37a3ab.jpg",
-      "categoria": "1",
-      "nombreProducto": "Kawasaki Ninja",
-      "costo": "400.00",
-      "descripcion": " Ninja H2R es una moto sin igual con soluciones tecnológicas que se extienden a otras motos dentro de la familia Ninja. La principal es el “supercharger” integrado, diseñado y fabricado al 100% por Kawasaki, equipado con una turbina que, a máximas revoluciones, rompe realmente la velocidad del sonido.",
-      "id": 1
-    },
-    {
       "url": "https://c4.wallpaperflare.com/wallpaper/333/850/575/2019-ducati-panigale-v4-r-4k-wallpaper-preview.jpg",
       "categoria": "1",
       "nombreProducto": "Ducati Paniagle",
@@ -143,6 +135,14 @@
       "costo": "250.00",
       "descripcion": "Capacidad del depósito: 6.2 litros. Distancia entre ejes: 1475 mm. Peso en orden de marcha: 106 Kg. Largo x ancho x alto: 2175 x 825 x 1285mm.",
       "id": 18
+    },
+    {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc_OLZ5WhKoBaBkSVhXUfeIZuv1gwliDa_4A&usqp=CAU",
+      "categoria": "1",
+      "nombreProducto": "Kawasaki Ninja",
+      "costo": "400",
+      "descripcion": "La Kawasaki Ninja H2R es una moto única, llena de excesos y fuera de todo sentido común. El motor sobrealimentado con 310 cv es sólo uno de los grandes alardes de este mito sobre ruedas.",
+      "id": 19
     }
   ]
 }

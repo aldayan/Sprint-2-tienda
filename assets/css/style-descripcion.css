@@ -85,6 +85,7 @@ pizarra
     @media (max-width: 768px) {
         .Descripcion .container {
             display: flex;
+            background: #ebe6e6;
             text-align: center;
             flex-direction: column;
         }
@@ -99,6 +100,9 @@ pizarra
             display: flex;
             flex-direction: column;
             justify-content: center;
+        }
+        .titulo-descripcion {
+            color: black
         }
     }
     /*------------------------------------------*/
