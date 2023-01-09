@@ -34,3 +34,16 @@ const obtenerInformacion = () => {
 
 obtenerInformacion();
 
+formulario.addEventListener('submit', (evento) => {
+    evento.preventDefault();
+
+    const ur = new URL(window.location);
+    const id = ur.searchParams.get("id");
+
+    const img = document.querySelector('[data-img-descripcion]').value;
+    const nombreProducto = document.querySelector('[data-nombre]').value;
+    const descripcion = document.querySelector('[data-descripcion]').value;
+
+
+    service.actualizarProducto(img, nombreProducto, descripcion)
+});
