@@ -5,16 +5,14 @@ const crearNueva = (url, nombreProducto, costo, id) => {
 
 
     const tarjeta = document.createElement('div');
-    const contenedor = `
-    <div class="caja-motos" style="background-image:url(${url}); background-position: center;">
+    const contenedor = `<div class="caja-motos" style="background-image:url(${url}); background-position: center;">
     <div class="caja-contenido" >
         <h3>${nombreProducto}</h3>
         <p class="costo" >$${costo}</p>
         <hr>
         <a href="decripcion/descripcion.html?id=${id}" class="enlace" >Ver producto</a>
     </div>
-</div>
-`
+</div>`
 
     tarjeta.innerHTML = contenedor;
 
@@ -37,8 +35,6 @@ const cards = [{
     category: "data-motocross",
     value: 3
 }];
-
-
 
 
 

@@ -18,7 +18,7 @@ pizarra
     
     .caja-img-descripcion {
         display: flex;
-        margin: 20px;
+        margin-left: 60px;
         width: 50%;
         height: 500px;
         border-radius: 10px;
@@ -31,7 +31,8 @@ pizarra
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin: 50px;
+        margin-left: 150px;
+    
     }
     
     .input-producto {
@@ -104,6 +105,14 @@ pizarra
         .titulo-descripcion {
             color: black
         }
+        .form-descripcion {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-right: 150px;
+        
+        }
+        
     }
     /*------------------------------------------*/
     /*responsive 1200*/

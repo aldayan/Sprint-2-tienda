@@ -57,14 +57,6 @@
       "id": 8
     },
     {
-      "url": "https://virtuoart.com/public/uploads/preview/990ec6f5111f2e05813571b63abd3633-62021588164392lfyltlgyff.jpg",
-      "categoria": "2",
-      "nombreProducto": "Harley Davidson Fat Bod",
-      "costo": "250.00",
-      "descripcion": "La motocicleta Fat Bob ® 2022 presenta un estilo agresivo y sin complejos, un rendimiento y un manejo alucinantes, acabados premium y un motor Milwaukee",
-      "id": 9
-    },
-    {
       "url": "https://s3.eu-west-1.amazonaws.com/cdn.motorbikemag.es/wp-content/uploads/2017/11/Harley-Davidson-Sport-Glide-2018-06.jpg",
       "categoria": "2",
       "nombreProducto": "Harley Davidson Sport Glide",
@@ -137,12 +129,20 @@
       "id": 18
     },
     {
-      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc_OLZ5WhKoBaBkSVhXUfeIZuv1gwliDa_4A&usqp=CAU",
+      "url": "https://i.pinimg.com/originals/40/d5/e0/40d5e03102858f7923b576315c4871c8.jpg",
       "categoria": "1",
-      "nombreProducto": "Kawasaki Ninja Hr",
+      "nombreProducto": "Kawasaki hr",
       "costo": "400.00",
       "descripcion": "La Kawasaki Ninja H2R es una moto única, llena de excesos y fuera de todo sentido común. El motor sobrealimentado con 310 cv es sólo uno de los grandes alardes de este mito sobre ruedas.",
       "id": 19
+    },
+    {
+      "url": "https://www.thunderbike.com/wp-content/uploads/2021/04/4k_Fat-Mary_Thunderbike_Glatzzo-Michael-Rauscher1_BEITRAG.jpg",
+      "categoria": "2",
+      "nombreProducto": "Darley Davidson V-Rod",
+      "costo": "500.00",
+      "descripcion": "Han pasado 17 años desde que los americanos sorprendieron al mundo con la irrupción de un concepto totalmente distinto a lo que hasta aquel momento nos estaban ofreciendo. Corría el año 2001 cuando llegó al mercado la primera V-Rod, una moto que más allá de su imagen moderna, rompedora y cromada hasta el exceso, encerraba la mayor revolución para la marca del águila.",
+      "id": 20
     }
   ]
 }

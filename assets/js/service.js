@@ -1,5 +1,5 @@
 const listaProducto = () => {
-    return fetch('http://localhost:3000/sesionYproductos').then(respuesta => {
+    return fetch('https://my-json-server.typicode.com/aldayan/sprint-2-tienda-virtual/sesionYproductos').then(respuesta => {
         return respuesta.json();
     });
 };
@@ -7,7 +7,7 @@ const listaProducto = () => {
 
 //creando sesion
 const crearSesion = (email, contraseña) => {
-    return fetch('http://localhost:3000/sesionYproductos', {
+    return fetch('https://my-json-server.typicode.com/aldayan/sprint-2-tienda-virtual/sesionYproductos', {
         method: 'POST',
 
         body: JSON.stringify({
@@ -22,7 +22,7 @@ const crearSesion = (email, contraseña) => {
 
 //creando producto
 const crearProducto = (url, categoria, nombreProducto, costo, descripcion) => {
-    return fetch('http://localhost:3000/sesionYproductos', {
+    return fetch('https://my-json-server.typicode.com/aldayan/sprint-2-tienda-virtual/sesionYproductos', {
         method: 'POST',
         headers: {
             "Content-Type": "application/json",
@@ -43,7 +43,7 @@ const crearProducto = (url, categoria, nombreProducto, costo, descripcion) => {
 
 const eliminarProducto = (id) => {
 
-    return fetch(`http://localhost:3000/sesionYproductos/${id}`, {
+    return fetch(`https://my-json-server.typicode.com/aldayan/sprint-2-tienda-virtual/sesionYproductos/${id}`, {
 
         method: 'DELETE'
     });
@@ -54,7 +54,7 @@ const eliminarProducto = (id) => {
 //detalle del producto
 
 const detalleProducto = (id) => {
-    return fetch(`http://localhost:3000/sesionYproductos/${id}`).then((respuesta) => respuesta.json()
+    return fetch(`https://my-json-server.typicode.com/aldayan/sprint-2-tienda-virtual/sesionYproductos/${id}`).then((respuesta) => respuesta.json()
 
     );
 };
@@ -64,7 +64,7 @@ const detalleProducto = (id) => {
 //actualizar producto
 
 const actualizarProducto = (url, categoria, nombreProducto, costo, descripcion, id) => {
-    return fetch(`http://localhost:3000/sesionYproductos/${id}`, {
+    return fetch(`https://my-json-server.typicode.com/aldayan/sprint-2-tienda-virtual/sesionYproductos/${id}`, {
         method: 'PUT',
 
         headers: {

@@ -2,9 +2,6 @@ import { service } from "./service.js";
 
 
 
-//editando producto
-const formulario = document.querySelector('[data-form-descripcion]');
-
 const obtenerInformacion = () => {
 
     const ur = new URL(window.location);
@@ -33,4 +30,3 @@ const obtenerInformacion = () => {
 };
 
 obtenerInformacion();
-
