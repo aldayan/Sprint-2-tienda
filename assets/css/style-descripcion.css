@@ -105,6 +105,14 @@ pizarra
         .titulo-descripcion {
             color: black
         }
+        .form-descripcion {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-right: 150px;
+        
+        }
+        
     }
     /*------------------------------------------*/
     /*responsive 1200*/

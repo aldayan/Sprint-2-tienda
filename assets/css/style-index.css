@@ -450,11 +450,21 @@ a img:hover {
     .ver {
         color: rgb(22, 22, 22);
     }
+ 
     .caja-contenido {
-        margin-top: 30px;
         background: rgba(0, 0, 0, 0.959);
         border-radius: 0px;
+  
     }
+    .caja-motos {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     margin: 1px;
+    }
+    
+    
+    
     .informacion-contacto {
         justify-content: center;
         flex-direction: column;
