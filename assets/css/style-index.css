@@ -454,6 +454,7 @@ a img:hover {
     .caja-contenido {
         background: rgba(0, 0, 0, 0.959);
         border-radius: 0px;
+
   
     }
     .caja-motos {
@@ -464,7 +465,7 @@ a img:hover {
     }
     
     
-    
+
     .informacion-contacto {
         justify-content: center;
         flex-direction: column;
