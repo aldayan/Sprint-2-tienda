@@ -518,3 +518,7 @@ a img:hover {
         width: 60%;
     }
 }
+
+.filtro{
+    display: none;
+}
